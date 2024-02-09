@@ -1,0 +1,11 @@
+.wrapper {
+  @apply w-full h-full flex flex-col items-center justify-center;
+}
+
+.form {
+  @apply p-10 border border-border desktop:w-[500px] notebook:w-[500px] tablet:w-[500px] mobile:w-[350px] bg-foreground flex items-center justify-center flex-col shadow-lg  gap-10 rounded;
+}
+
+.form_container {
+  @apply w-full h-full tablet:p-5 notebook:p-10 desktop:p-10 flex items-center justify-center gap-7 flex-col;
+}

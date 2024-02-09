@@ -1,0 +1,3 @@
+provider: generic
+url: https://github.com/thesadchikoff/self-updating-workflow-app.git
+updaterCacheDirName: workflow-updater

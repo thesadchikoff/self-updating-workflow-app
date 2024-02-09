@@ -1,0 +1,18 @@
+.task-item {
+  @apply p-5 bg-foreground rounded-xl flex   flex-col relative;
+  transition: all 0.3s;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  &:hover {
+    transform: translateY(-10px);
+  }
+  .task-header {
+    @apply w-full flex items-center justify-between flex-grow-0 pb-4 border-b border-b-border;
+  }
+  .task-body {
+    @apply py-4 flex-1 border-b border-b-border;
+  }
+  .task-footer {
+    @apply pt-4 flex-grow-0 flex items-center justify-between;
+  }
+}

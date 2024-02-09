@@ -1,0 +1,16 @@
+[role='alert'] {
+  @apply text-xs text-red-600 justify-start items-start;
+}
+.field-item {
+  @apply w-full flex items-center gap-6 rounded  py-2 px-5;
+
+  .input {
+    @apply outline-none border-0  bg-transparent w-full;
+  }
+}
+
+.svg-focus {
+  svg {
+    @apply stroke-accent;
+  }
+}

@@ -1,0 +1,22 @@
+/* TitleBar.css */
+.titlebar {
+  -webkit-app-region: drag;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #333;
+  color: white;
+  padding: 5px;
+}
+
+.buttons {
+  float: right;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin-left: 5px;
+}
